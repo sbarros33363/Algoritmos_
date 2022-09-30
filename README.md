@@ -1,2 +1,2 @@
 # Algoritmos_
-Su puta madreprofesor
+Hola profe ‼
