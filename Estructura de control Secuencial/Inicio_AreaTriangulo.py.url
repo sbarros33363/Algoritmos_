@@ -1,0 +1,10 @@
+#entrada
+LA = int(input("lado a: "))
+LB = int(input("lado b: "))
+LC = int(input("lado c: "))
+#caja negra
+Perimetro = (LA+LB+LC)
+Sp = Perimetro / 2
+area=(Sp * (Sp - LA) * (Sp - LB) * (Sp - LC))**0.5
+#salida
+print("El area del triangulo es: ",area)
