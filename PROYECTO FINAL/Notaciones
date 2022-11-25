@@ -1,0 +1,40 @@
+Ahorcado
+
+Para este proyecto de ahorcado estamos usando:
+
+-import random / Eligue una palabra al azar de la lista (palabras)
+-import string / Es una pequeña ñista con las letra del abecedario
+
+Tambien,
+
+-from (documento) import (material)
+
+  Esto para asi tenerlo de una manera mas organizada , este importa los items mencionados en  "(material)"
+  desde el archivo "(documento)"
+  
+Paso a Paso
+
+1) Escoger un palabra valida de la lista palabras()
+
+2)Si la palabra es valida y no hya leytra encontradas se remplazar las letras por "-"
+  
+  "PROGRAMACION" "------------"
+  
+3)Se determinan 4 variables que se cambian por palabra
+  
+  -palabra / palabra escogida
+  -letra_por_adivinar / letrs faltantes en la palabra actual
+  -letras_adivinadas / letras encontradas en la palabra actual
+  -adecedario / con la libreria string
+  -vidas / #numb de vidas
+  
+ 4)Si quedan vida y hay letras por adivinar el juego sigue:
+    -Impirme las vidas y las letras usadas dejando un espacio entre ellas
+    -Si la letra ya esta adivinada se quedara como la misma letra, en contrario si no lo esta se mostrara '-'
+ 
+ 5)Pide un input por teclado de la letra
+    -Si la letra ingresasda esta en el adecedario se elimina para asi no repetirlo
+    -Y la letra es correcta
+ 6)Si la letra es incorrecta se le resta una vida.
+ 7)Si la letra no es valida pide otra vez el input por teclado
+ 8)Si las vidas son iguales a 0 se acaba el juego, pero si siguen las vidas y las letras encontradas ya esta cumplidas se gana el juego
